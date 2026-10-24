@@ -1,0 +1,42 @@
+# Gradle / build
+.gradle/
+.kotlin/
+**/build/
+/captures
+.externalNativeBuild/
+.cxx/
+
+# Local machine config (SDK path, etc.)
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+*.jar.asc
+
+# Signing material — never commit
+*.jks
+*.keystore
+*.p12
+keystore.properties
+
+# On-device model files must never be committed
+*.gguf
+*.bin
+*.task
+*.litertlm
+*.tflite
+models/
+
+# Logs
+*.log
